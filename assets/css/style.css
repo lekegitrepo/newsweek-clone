@@ -1,14 +1,14 @@
 .feature-slide figure div#slide-icon {
-    background: url('../icons/icon-slideshows.png') 0 0/contain no-repeat;
-    height: 52px;
-    text-align: center;
-    width: 70px;
+  background: url('../icons/icon-slideshows.png') 0 0/contain no-repeat;
+  height: 52px;
+  text-align: center;
+  width: 70px;
 }
 
 .slide-num {
-    color: #e9212e;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 58px;
-    text-indent: 5px;
+  color: #e9212e;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
 }
