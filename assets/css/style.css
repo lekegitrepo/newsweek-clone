@@ -31,7 +31,6 @@ section h6 {
 
 .sub-img-container {
   display: flex;
-  justify-content: center;
   position: relative;
 }
 
@@ -45,13 +44,7 @@ section h6 {
 }
 
 #sept {
-  left: 50%;
+  left: 20%;
   position: absolute;
   top: 13px;
-}
-
-@media (min-width: 768px){
-  .sub-img-container {
-    justify-content: flex-start !important;
-  }
 }
