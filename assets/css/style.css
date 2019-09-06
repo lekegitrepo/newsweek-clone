@@ -21,7 +21,7 @@ h6 a {
 .featured h5,
 .top-stories h5,
 .opinion h5 {
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
   font: bold 16px/16px "Roboto Condensed", sans-serif;
 }
 
@@ -81,7 +81,7 @@ h6 a:hover {
 
 .travel h5 a:hover,
 .travel span a:hover,
-.categ-sec header h6 a {
+.categ-sec header h6 a:hover {
   text-decoration: none;
 }
 
