@@ -74,20 +74,20 @@ h6 a:hover,
   margin: 0 6px;
 }
 
-.categ-sec header h6 a,
-.sub-news h6 {
-  color: #f72210;
-  padding-top: 25px;
-  font-size: 22px;
-  line-height: 22px;
-}
-
 .mag-img p a {
   color: black;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
   font-weight: bold;
   line-height: 18px;
+}
+
+.categ-sec header h6 a,
+.sub-news h6 {
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
 }
 
 .mag-title a {
