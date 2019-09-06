@@ -2,13 +2,54 @@ body {
   color: #333;
   font-size: 13px;
   line-height: 18px;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: black;
+  text-decoration: underline #f72210;
+}
+
+.sub-hd-pointer {
+  cursor: pointer;
 }
 
 section h6 {
   color: #f72210;
   font-size: 22px;
   line-height: 22px;
+}
+
+.opinion h6 a, .sub-hd-txt a {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.opinion a:hover, .sub-hd-txt a:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 .feature-slide figure div#slide-icon {
@@ -26,8 +67,7 @@ section h6 {
   text-indent: 5px;
 }
 
-.sub-news {
-}
+.sub-news {}
 
 .sub-img-container {
   display: flex;
@@ -39,9 +79,7 @@ section h6 {
   width: 170px;
 }
 
-#aug {
-
-}
+#aug {}
 
 #sept {
   left: 20%;
