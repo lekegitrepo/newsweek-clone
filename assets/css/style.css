@@ -40,13 +40,34 @@ h6 a {
   line-height: 21px;
 }
 
+.travel h5 a {
+  color: #272727;
+  font: 20px/22px "Lora", serif;
+  padding-top: 10px;
+}
+
+.travel span a {
+  background: #c2d4d7;
+  color: #272727;
+  padding: 4px 10px;
+  margin: 0 6px;
+}
+
+.mag-img p a {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover,
-.title-link a:hover {
+.mag-img p a:hover {
   color: black;
   text-decoration: underline #f72210;
 }
@@ -61,33 +82,12 @@ h6 a:hover,
   padding-top: 10px;
 }
 
-.travel h5 a {
-  color: #272727;
-  font: 20px/22px "Lora", serif;
-  padding-top: 10px;
-}
-
-.travel span a {
-  background: #c2d4d7;
-  color: #272727;
-  padding: 4px 10px;
-  margin: 0 6px;
-}
-
 .categ-sec header h6 a,
 .sub-news h6 {
   color: #f72210;
   padding-top: 25px;
   font-size: 22px;
   line-height: 22px;
-}
-
-.mag-img p a {
-  color: black;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 18px;
 }
 
 .mag-title a {
