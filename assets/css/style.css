@@ -72,6 +72,13 @@ h6 a:hover {
   margin: 0 6px;
 }
 
+.categ-sec header h6 a {
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
 .position-absolute a:hover,
 .opinion a:hover,
 .sub-hd-txt a:hover {
@@ -79,15 +86,15 @@ h6 a:hover {
   text-decoration: none;
 }
 
+.travel span a:hover {
+  background-color: #272727;
+  color: #c2d4d7;
+}
+
 .travel h5 a:hover,
 .travel span a:hover,
 .categ-sec header h6 a:hover {
   text-decoration: none;
-}
-
-.travel span a:hover {
-  background-color: #272727;
-  color: #c2d4d7;
 }
 
 .sub-hd-pointer {
@@ -136,13 +143,6 @@ h6 a:hover {
   font-size: 20px;
   line-height: 58px;
   text-indent: 5px;
-}
-
-.categ-sec header h6 a {
-  color: #f72210;
-  padding-top: 25px;
-  font-size: 22px;
-  line-height: 22px;
 }
 
 /* .sub-news {} */
