@@ -40,6 +40,20 @@ h6 a {
   line-height: 21px;
 }
 
+.langs-link a:hover,
+#footer-links a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+#footer-links a,
+.langs-link a {
+  color: #666;
+  font-size: 14px;
+  line-height: 15px;
+  padding-right: 10px;
+}
+
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -235,20 +249,6 @@ ul {
 
 footer,
 #footer-links,
-.langs {
+.langs-link {
   margin: 15px 0;
-}
-
-#footer-links a,
-.langs a {
-  color: #666;
-  font-size: 14px;
-  line-height: 15px;
-  padding-right: 10px;
-}
-
-#footer-links a:hover,
-.langs a:hover {
-  color: #000;
-  text-decoration: none;
 }
