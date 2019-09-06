@@ -5,10 +5,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
 h1 a,
 h2 a,
 h3 a,
@@ -45,6 +41,42 @@ h5 a:hover,
 h6 a:hover {
   color: black;
   text-decoration: underline #f72210;
+}
+
+.travel {
+  background-color: #f4f5f7;
+  margin-bottom: 20px;
+}
+
+.travel h5 {
+  padding-top: 10px;
+}
+
+.travel h5 a {
+  color: #272727;
+  font: 20px/22px "Lora", serif;
+  padding-top: 10px;
+}
+
+.travel span {
+}
+
+.travel span a {
+  background: #c2d4d7;
+  color: #272727;
+  padding: 4px 10px;
+  margin: 0 6px;
+}
+
+.travel h5 a:hover,
+.travel span a:hover {
+  text-decoration: none;
+}
+
+
+.travel span a:hover {
+  background-color: #272727;
+  color: #c2d4d7;
 }
 
 .sub-hd-pointer {
