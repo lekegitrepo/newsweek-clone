@@ -72,7 +72,8 @@ h6 a:hover {
   margin: 0 6px;
 }
 
-.categ-sec header h6 a {
+.categ-sec header h6 a,
+.sub-news h6 {
   color: #f72210;
   padding-top: 25px;
   font-size: 22px;
@@ -126,7 +127,8 @@ h6 a:hover {
   width: 29px;
 }
 
-.feature-sec header h6 {
+.feature-sec header h6:hover,
+.social-icons i:hover {
   cursor: pointer;
 }
 
@@ -145,7 +147,18 @@ h6 a:hover {
   text-indent: 5px;
 }
 
-/* .sub-news {} */
+.sub-news button {
+  background-color: #f72210;
+  border: 0;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  padding: 10px 10px 10px 12px;
+}
+
+.sub-news button:hover {
+  background-color: #de1f0e;
+}
+
 
 .sub-img-container {
   display: flex;
@@ -163,4 +176,79 @@ h6 a:hover {
   left: 20%;
   position: absolute;
   top: 13px;
+}
+
+.arrow {
+  background: url("https://g.newsweek.com/www/images/icon-arrow-right.svg") center/contain no-repeat;
+  display: inline-block;
+  height: 14px;
+  margin-left: 10px;
+  width: 8px;
+}
+
+.brand-name {
+  display: block;
+  cursor: pointer;
+  fill: #f72210;
+  height: 36px;
+  margin-bottom: 12px;
+  max-width: 236px;
+  padding-top: 10px;
+}
+
+.copyright {
+  align-items: flex-end;
+  color: #666;
+  display: flex;
+  font-size: 12px;
+  margin-bottom: 0.4rem;
+}
+
+ul {
+  padding: 10px;
+}
+
+.social-icons li {
+  font-size: 25px;
+  line-height: 20px;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #405de6;
+}
+
+.fa-tumblr:hover {
+  color: #35465c;
+}
+
+.fa-linkedin-in:hover {
+  color: #0077b5;
+}
+
+footer,
+#footer-links,
+.langs {
+  margin: 15px 0;
+}
+
+#footer-links a,
+.langs a {
+  color: #666;
+  font-size: 14px;
+  line-height: 15px;
+  padding-right: 10px;
+}
+
+#footer-links a:hover,
+.langs a:hover {
+  color: #000;
+  text-decoration: none;
 }
