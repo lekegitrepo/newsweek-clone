@@ -22,6 +22,14 @@ h6 a {
   line-height: 24px;
 }
 
+.position-absolute a {
+  color: #e9212e;
+  font-weight: bolder;
+  font-size: 17px;
+  padding: 8px 15px;
+  text-transform: uppercase;
+}
+
 .sub-hd-txt a,
 .opinion h6 a {
   font-size: 17px;
@@ -48,13 +56,14 @@ section h6 {
   line-height: 22px;
 }
 
+.position-absolute a:hover,
 .opinion a:hover,
 .sub-hd-txt a:hover {
   color: #f72210;
   text-decoration: none;
 }
 
-.feature-slide figure div#slide-icon {
+.feature-slide figure div {
   background: url('../icons/icon-slideshows.png') 0 0/contain no-repeat;
   height: 52px;
   text-align: center;
