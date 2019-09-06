@@ -159,7 +159,6 @@ h6 a:hover {
   background-color: #de1f0e;
 }
 
-
 .sub-img-container {
   display: flex;
   position: relative;
@@ -235,19 +234,19 @@ ul {
 
 footer,
 #footer-links,
-.langs-link {
+#langs-link {
   margin: 15px 0;
 }
 
 #footer-links a,
-.langs-link a {
+#langs-link a {
   color: #666;
   font-size: 14px;
   line-height: 15px;
   padding-right: 10px;
 }
 
-.langs-link a:hover,
+#langs-link a:hover,
 #footer-links a:hover {
   color: #000;
   text-decoration: none;
