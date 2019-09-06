@@ -22,12 +22,11 @@ h6 a {
   line-height: 24px;
 }
 
-.opinion h6 a,
-.sub-hd-txt a {
+.sub-hd-txt a,
+.opinion h6 a {
   font-size: 17px;
   line-height: 21px;
 }
-
 
 h1 a:hover,
 h2 a:hover,
@@ -70,7 +69,7 @@ section h6 {
   text-indent: 5px;
 }
 
-/*.sub-news {}*/
+/* .sub-news {} */
 
 .sub-img-container {
   display: flex;
@@ -82,7 +81,7 @@ section h6 {
   width: 170px;
 }
 
-/*#aug {}*/
+/* #aug {} */
 
 #sept {
   left: 20%;
