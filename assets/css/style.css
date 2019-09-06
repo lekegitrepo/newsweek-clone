@@ -58,9 +58,6 @@ h6 a:hover {
   padding-top: 10px;
 }
 
-.travel span {
-}
-
 .travel span a {
   background: #c2d4d7;
   color: #272727;
@@ -68,11 +65,17 @@ h6 a:hover {
   margin: 0 6px;
 }
 
+.position-absolute a:hover,
+.opinion a:hover,
+.sub-hd-txt a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
 .travel h5 a:hover,
 .travel span a:hover {
   text-decoration: none;
 }
-
 
 .travel span a:hover {
   background-color: #272727;
@@ -90,13 +93,6 @@ section h6 {
   color: #f72210;
   font-size: 22px;
   line-height: 22px;
-}
-
-.position-absolute a:hover,
-.opinion a:hover,
-.sub-hd-txt a:hover {
-  color: #f72210;
-  text-decoration: none;
 }
 
 .feature-slide figure div {
