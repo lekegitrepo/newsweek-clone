@@ -171,7 +171,6 @@
                           U.S.
                         </a>
                       </div>
-                      <!-- <figcaption></figcaption> -->
                     </figure>
                     <h4>
                       <a href="#"
@@ -866,7 +865,6 @@
                             SPONSORED INSIGHT
                           </a>
                         </div>
-                        <!-- <figcaption></figcaption> -->
                       </figure>
                       <h4>
                         <a href="#"
@@ -884,18 +882,26 @@
                       class="align-items-center bg-light container d-flex flex-column justify-content-center signup"
                     >
                       <div
-                        class="border d-flex flex-column justify-content-start"
+                        class="border d-flex flex-column justify-content-center my-4 pl-3 signup-box"
                       >
-                        <div>
-                          <span class="n-logo">
-                            <!-- url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210 -->
+                        <div class="signup-nw">
+                          <span id="svg-icon">
+                            <img
+                              src="assets/icons/nw-logo.jpg"
+                              style="width: 25px; height: 30px"
+                              alt="logo"
+                            />
                           </span>
-                          <span>SIGN UP FOR OUR NEWSLETTER</span>
+                          <span class="signup-text"
+                            >SIGN UP FOR OUR NEWSLETTER</span
+                          >
                         </div>
                         <div>
-                          <button class="btn-signup">SIGN UP ></button>
+                          <button class="btn-signup">
+                            SIGN UP <span class="arrow"></span>
+                          </button>
                         </div>
-                        <div>Update your preferences »</div>
+                        <div class="update">Update your preferences »</div>
                       </div>
                     </div>
                     <div class="border">
@@ -975,7 +981,7 @@
                         />
                       </figure>
                       <div class="mag-info">
-                        <span class="bg-danger border px-3">
+                        <span class="mag-cat px-3">
                           COVER
                         </span>
                         <span class="mag-title px-1">
@@ -1003,7 +1009,7 @@
                         />
                       </figure>
                       <div class="mag-info">
-                        <span class="bg-danger border px-3">
+                        <span class="mag-cat px-3">
                           FEATURES
                         </span>
                         <span class="mag-title px-1">
@@ -1031,7 +1037,7 @@
                         />
                       </figure>
                       <div class="mag-info">
-                        <span class="bg-danger border px-3">
+                        <span class="mag-cat px-3">
                           DOWNLOADS
                         </span>
                         <span class="mag-title px-1">
@@ -1064,7 +1070,7 @@
                   <img src="assets/images/mag-img-4.jpg" class="img-fluid" />
                 </figure>
                 <div class="mag-info">
-                  <span class="bg-danger border px-3">
+                  <span class="mag-cat px-3">
                     DOWNLOADS
                   </span>
                   <span class="mag-title px-1">
@@ -1089,7 +1095,7 @@
                   <img src="assets/images/mag-img-5.jpg" class="img-fluid" />
                 </figure>
                 <div class="mag-info">
-                  <span class="bg-danger border px-3">
+                  <span class="mag-cat px-3">
                     DOWNTIME
                   </span>
                   <span class="mag-title px-1">
@@ -1113,7 +1119,7 @@
                   <img src="assets/images/mag-img-6.jpg" class="img-fluid" />
                 </figure>
                 <div class="mag-info">
-                  <span class="bg-danger border px-3">
+                  <span class="mag-cat px-3">
                     DOWNTIME
                   </span>
                   <span class="mag-title px-1">
@@ -1136,15 +1142,15 @@
                   class="figure text-left d-flex flex-column justify-content-end"
                 >
                   <img src="assets/images/mag-img-7.jpg" class="img-fluid" />
-                  <div class="bg-danger px-1 position-absolute">
+                  <div id="big-shot" class="mag-cat px-1 position-absolute">
                     <a href="#">BIG SHOTS</a>
                   </div>
                 </figure>
-                <p>
+                <h6>
                   <a href="#">
                     COOLING OFF
                   </a>
-                </p>
+                </h6>
               </div>
             </div>
           </div>
@@ -2143,12 +2149,14 @@
       <section class="sub-news">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6 col-md-12 bg-warning">
+            <div class="col-lg-7 col-md-12">
               <h6 class="font-weight-bold">SUBSCRIBE</h6>
               <div
-                class="container-fluid d-flex flex-column flex-md-row justify-content-md-around justify-content-lg-between flex-sm-column justify-content-sm-center pl-0"
+                class="container-fluid d-flex flex-column flex-md-row justify-content-between justify-content-lg-between flex-sm-column justify-content-sm-center pl-0 pb-sm-3 subcribe"
               >
-                <div class="d-flex justify-content-sm-center sub-img-container">
+                <div
+                  class="col-lg-4 d-flex d-md-table d-lg-table justify-content-sm-center pt-3 sub-img-container"
+                >
                   <figure id="aug-issue">
                     <img
                       id="aug"
@@ -2164,11 +2172,11 @@
                     />
                   </figure>
                 </div>
-                <div class="d-flex flex-column">
+                <div class="col-lg-8 d-flex flex-column pt-3 pl-lg-5 wrap">
                   <div
                     class="d-flex justify-content-md-start justify-content-sm-center sub-text-topic"
                   >
-                    <p>
+                    <p class="sub-nw">
                       In-depth Stories You Don't See Elsewhere About Topics You
                       Want to Read!
                     </p>
@@ -2187,7 +2195,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-12 bg-success">
+            <div class="col-lg-5 col-md-12 bg-success">
               <h6 class="font-weight-bold">NEWSLETTER</h6>
               <div
                 class="container-fluid d-flex flex-column flex-md-row flex-sm-column justify-content-sm-center pl-0"
