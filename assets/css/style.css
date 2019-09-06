@@ -18,6 +18,13 @@ h6 a {
   line-height: 24px;
 }
 
+.featured h5,
+.top-stories h5,
+.opinion h5 {
+  color: rgba(3,3,3,.4);
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+}
+
 .position-absolute a {
   color: #e9212e;
   font-weight: bolder;
@@ -89,10 +96,30 @@ h6 a:hover {
   line-height: 20px;
 }
 
-section h6 {
+/* section h6 {
   color: #f72210;
   font-size: 22px;
   line-height: 22px;
+} */
+
+.header-sec h6 {
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+
+.mag .svg,
+.editor-sec .svg,
+.feature-sec .svg {
+  background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain no-repeat #f72210;
+  height: 28px;
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 29px;
+}
+
+.feature-sec header h6 {
+  cursor: pointer;
 }
 
 .feature-slide figure div {
