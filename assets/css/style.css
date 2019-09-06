@@ -61,6 +61,14 @@ h6 a {
   line-height: 18px;
 }
 
+.position-absolute a:hover,
+.opinion a:hover,
+.sub-hd-txt a:hover,
+.mag-title a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -94,14 +102,6 @@ h6 a:hover,
   color: #f72210;
   font-size: 18px;
   font-weight: bold;
-}
-
-.position-absolute a:hover,
-.opinion a:hover,
-.sub-hd-txt a:hover,
-.mag-title a:hover {
-  color: #f72210;
-  text-decoration: none;
 }
 
 .travel span a:hover {
