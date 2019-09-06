@@ -31,7 +31,8 @@ h6 a {
 }
 
 .sub-hd-txt a,
-.opinion h6 a {
+.opinion h6 a,
+.sub-hd a {
   font-size: 17px;
   line-height: 21px;
 }
@@ -48,6 +49,9 @@ h6 a:hover {
 
 .sub-hd-pointer {
   cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
 }
 
 section h6 {
