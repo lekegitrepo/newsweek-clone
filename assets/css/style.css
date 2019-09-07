@@ -33,6 +33,25 @@ h6 a {
   text-transform: uppercase;
 }
 
+#sept-link a {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  padding: 10px 10px 10px 12px;
+}
+
+#sept-link a:hover {
+  background-color: #dbdcdd;
+  text-decoration: none;
+}
+
+#sept-link a span {
+  background-image: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg);
+}
+
 .mag-title a {
   color: #f72210;
   font-size: 18px;
