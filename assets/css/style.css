@@ -33,6 +33,12 @@ h6 a {
   text-transform: uppercase;
 }
 
+.mag-title a {
+  color: #f72210;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .sub-hd-txt a,
 .sub-hd a,
 .opinion h6 a {
@@ -88,12 +94,6 @@ h6 a:hover,
   padding-top: 25px;
   font-size: 22px;
   line-height: 22px;
-}
-
-.mag-title a {
-  color: #f72210;
-  font-size: 18px;
-  font-weight: bold;
 }
 
 .position-absolute a:hover,
