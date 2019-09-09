@@ -118,12 +118,12 @@
   </head>
   <body>
     <header id="header">
-      <nav class="navbar navbar-expand-lg p-0">
+      <nav id="nav-container" class="navbar navbar-expand-lg p-0">
         <div id="top-nav" class="top-nav">
           <div id="date" class="date">
             <date>Fri, Sep 06, 2019</date>
           </div>
-          <div class="top-logo">
+          <div id="top-logo" class="top-logo">
             <svg
               version="1.1"
               id="Layer_1"
@@ -1211,7 +1211,7 @@
         </header>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-3 col-md-6 bg-dark">
+            <div class="col-lg-3 col-md-6">
               <div class="editor-pick pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1237,7 +1237,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 bg-info">
+            <div class="col-lg-3 col-md-6">
               <div class="editor-pick pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1263,7 +1263,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 bg-primary">
+            <div class="col-lg-3 col-md-6">
               <div class="editor-pick pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1290,7 +1290,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 bg-warning">
+            <div class="col-lg-3 col-md-6">
               <div class="editor-pick pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1319,7 +1319,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-3 col-md-6 bg-dark">
+            <div class="col-lg-3 col-md-6">
               <div class="editor-pick pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1346,7 +1346,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 bg-info">
+            <div class="col-lg-3 col-md-6">
               <div class="editor-pick pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1371,7 +1371,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 bg-primary">
+            <div class="col-lg-3 col-md-6">
               <div class="editor-pick pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1398,7 +1398,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 bg-warning">
+            <div class="col-lg-3 col-md-6">
               <div class="editor-pick pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1436,7 +1436,7 @@
         </header>
         <div class="border-bottom border-top container-fluid">
           <div class="row">
-            <div class="col-lg-4 col-md-4 bg-dark">
+            <div class="col-lg-4 col-md-4">
               <div class="feature-slide pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1457,7 +1457,7 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 bg-info">
+            <div class="col-lg-4 col-md-4">
               <div class="feature-slide pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1479,7 +1479,7 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 bg-warning">
+            <div class="col-lg-4 col-md-4">
               <div class="feature-slide pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1503,7 +1503,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-4 col-md-4 bg-dark">
+            <div class="col-lg-4 col-md-4">
               <div class="feature-slide pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1525,7 +1525,7 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 bg-info">
+            <div class="col-lg-4 col-md-4">
               <div class="feature-slide pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1544,7 +1544,7 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 bg-warning">
+            <div class="col-lg-4 col-md-4">
               <div class="feature-slide pt-2">
                 <figure
                   class="figure text-left d-flex flex-column justify-content-end"
@@ -1570,11 +1570,11 @@
       <!-- U.S. Section -->
       <section class="us-sec categ-sec mt-4 mb-4">
         <header>
-          <h6><a href="#">U.S.</a></h6>
+          <h6 class="pl-3"><a href="#">U.S.</a></h6>
         </header>
         <div class="border-bottom container-fluid">
           <div class="row">
-            <div class="col-lg-4 col-md-4 bg-info">
+            <div class="col-lg-4 col-md-4">
               <div class="us-section pt-2">
                 <figure class="figure text-left d-flex flex-column">
                   <img
@@ -1590,7 +1590,7 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 bg-secondary">
+            <div class="col-lg-4 col-md-4">
               <div class="us-section pt-2">
                 <figure class="figure text-left d-flex flex-column">
                   <img
@@ -1606,9 +1606,9 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 px-0 sub-hd-txt bg-dark">
+            <div class="col-lg-4 col-md-4 px-0 sub-hd-txt">
               <div class="col px-0">
-                <div class="col-md-12 bg-secondary">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -1627,7 +1627,7 @@
                     </h6>
                   </article>
                 </div>
-                <div class="col-md-12 bg-primary">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -1646,7 +1646,7 @@
                     </h6>
                   </article>
                 </div>
-                <div class="col-md-12 bg-info">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -1674,11 +1674,11 @@
       <!-- WORLD Section -->
       <section class="world-sec categ-sec mt-4 mb-4">
         <header>
-          <h6><a href="#">World</a></h6>
+          <h6 class="pl-3"><a href="#">World</a></h6>
         </header>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-4 col-md-4 bg-info">
+            <div class="col-lg-4 col-md-4">
               <div class="wd-section pt-2">
                 <figure class="figure text-left d-flex flex-column">
                   <img
@@ -1695,7 +1695,7 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 bg-secondary">
+            <div class="col-lg-4 col-md-4">
               <div class="wd-section pt-2">
                 <figure class="figure text-left d-flex flex-column">
                   <img
@@ -1712,9 +1712,9 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 px-0 sub-hd-txt bg-dark">
+            <div class="col-lg-4 col-md-4 px-0 sub-hd-txt">
               <div class="col px-0">
-                <div class="col-md-12 bg-dark">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -1733,7 +1733,7 @@
                     </h6>
                   </article>
                 </div>
-                <div class="col-md-12 bg-primary">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -1752,7 +1752,7 @@
                     </h6>
                   </article>
                 </div>
-                <div class="col-md-12 bg-info">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -1780,11 +1780,11 @@
       <!-- Business Section -->
       <section class="bus-sec categ-sec mt-4 mb-4">
         <header>
-          <h6><a href="#">Business</a></h6>
+          <h6 class="pl-3"><a href="#">Business</a></h6>
         </header>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-4 col-md-4 bg-info">
+            <div class="col-lg-4 col-md-4">
               <div class="bs-section pt-2">
                 <figure class="figure text-left d-flex flex-column">
                   <img
@@ -1801,7 +1801,7 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 bg-secondary">
+            <div class="col-lg-4 col-md-4">
               <div class="bs-section pt-2">
                 <figure class="figure text-left d-flex flex-column">
                   <img
@@ -1815,9 +1815,9 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 px-0 sub-hd-txt bg-dark">
+            <div class="col-lg-4 col-md-4 px-0 sub-hd-txt">
               <div class="col px-0">
-                <div class="col-md-12 bg-dark">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -1836,7 +1836,7 @@
                     </h6>
                   </article>
                 </div>
-                <div class="col-md-12 bg-primary">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -1855,7 +1855,7 @@
                     </h6>
                   </article>
                 </div>
-                <div class="col-md-12 bg-info">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -1883,11 +1883,11 @@
       <!-- Tech & Science Section -->
       <section class="tech-sec categ-sec mt-4 mb-4">
         <header>
-          <h6><a href="#">Tech & Science</a></h6>
+          <h6 class="pl-3"><a href="#">Tech & Science</a></h6>
         </header>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-4 col-md-4 bg-info">
+            <div class="col-lg-4 col-md-4">
               <div class="ts-section pt-2">
                 <figure class="figure text-left d-flex flex-column">
                   <img
@@ -1904,7 +1904,7 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 bg-secondary">
+            <div class="col-lg-4 col-md-4">
               <div class="ts-section pt-2">
                 <figure class="figure text-left d-flex flex-column">
                   <img
@@ -1921,9 +1921,9 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 px-0 sub-hd-txt bg-dark">
+            <div class="col-lg-4 col-md-4 px-0 sub-hd-txt">
               <div class="col px-0">
-                <div class="col-md-12 bg-dark">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -1942,7 +1942,7 @@
                     </h6>
                   </article>
                 </div>
-                <div class="col-md-12 bg-primary">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -1961,7 +1961,7 @@
                     </h6>
                   </article>
                 </div>
-                <div class="col-md-12 bg-info">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -1989,11 +1989,11 @@
       <!-- Culture Section -->
       <section class="culture-sec categ-sec mt-4 mb-4">
         <header>
-          <h6><a href="#">Culture</a></h6>
+          <h6 class="pl-3"><a href="#">Culture</a></h6>
         </header>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-4 col-md-4 bg-info">
+            <div class="col-lg-4 col-md-4">
               <div class="cs-sec pt-2">
                 <figure class="figure text-left d-flex flex-column">
                   <img
@@ -2007,7 +2007,7 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 bg-secondary">
+            <div class="col-lg-4 col-md-4">
               <div class="cs-sec pt-2">
                 <figure class="figure text-left d-flex flex-column">
                   <img
@@ -2023,9 +2023,9 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 px-0 sub-hd-txt bg-dark">
+            <div class="col-lg-4 col-md-4 px-0 sub-hd-txt">
               <div class="col px-0">
-                <div class="col-md-12 bg-dark">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -2044,7 +2044,7 @@
                     </h6>
                   </article>
                 </div>
-                <div class="col-md-12 bg-primary">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -2063,7 +2063,7 @@
                     </h6>
                   </article>
                 </div>
-                <div class="col-md-12 bg-info">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -2091,11 +2091,11 @@
       <!-- Sports Section -->
       <section class="sport-sec categ-sec mt-4 mb-4">
         <header>
-          <h6><a href="#">Sports</a></h6>
+          <h6 class="pl-3"><a href="#">Sports</a></h6>
         </header>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-4 col-md-4 bg-info">
+            <div class="col-lg-4 col-md-4">
               <div class="sp-section pt-2">
                 <figure class="figure text-left d-flex flex-column">
                   <img
@@ -2112,7 +2112,7 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 bg-secondary">
+            <div class="col-lg-4 col-md-4">
               <div class="sp-section pt-2">
                 <figure class="figure text-left d-flex flex-column">
                   <img
@@ -2129,9 +2129,9 @@
                 </h4>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 px-0 sub-hd-txt bg-dark">
+            <div class="col-lg-4 col-md-4 px-0 sub-hd-txt">
               <div class="col px-0">
-                <div class="col-md-12 bg-dark">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -2150,7 +2150,7 @@
                     </h6>
                   </article>
                 </div>
-                <div class="col-md-12 bg-primary">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -2169,7 +2169,7 @@
                     </h6>
                   </article>
                 </div>
-                <div class="col-md-12 bg-info">
+                <div class="col-md-12">
                   <article class="border-bottom d-flex pt-2">
                     <div class="pr-2">
                       <figure class="figure">
@@ -2243,7 +2243,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-5 col-md-12 bg-success">
+            <div class="col-lg-5 col-md-12">
               <h6 class="font-weight-bold">NEWSLETTER</h6>
               <div
                 class="container-fluid d-flex flex-column flex-md-row flex-sm-column justify-content-sm-center nw-letter pl-0"
@@ -2289,7 +2289,7 @@
       <div class="container-fluid border-bottom">
         <div class="row">
           <div class="col-lg-6 col-md-6">
-            <div class="row  bg-danger">
+            <div class="row">
               <div class="brand-name col-md-6 col-sm-12">
                 <svg
                   version="1.1"
@@ -2314,7 +2314,7 @@
             </div>
           </div>
           <div
-            class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-md-end bg-dark"
+            class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-md-end"
           >
             <ul class="pl-0 mb-0 social-icons">
               <li class="d-inline-block pr-2">
@@ -2336,7 +2336,7 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid bg-warning">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-lg-8 col-md-12">
             <div id="footer-links">
