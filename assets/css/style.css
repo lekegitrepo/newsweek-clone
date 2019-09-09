@@ -101,6 +101,20 @@ body {
   text-decoration: none;
 }
 
+.search-bar {
+  
+}
+
+.search-bar input {
+  border: 0;
+  font-size: 15px;
+  width: 50px;
+}
+
+.search-bar i {
+  font-size: 20px;
+}
+
 .top-section {
   margin-top: 17%;
 }
