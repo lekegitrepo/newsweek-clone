@@ -202,8 +202,7 @@ h2 a:hover,
 h3 a:hover,
 h4 a:hover,
 h5 a:hover,
-h6 a:hover,
-.mag-img p a:hover {
+h6 a:hover {
   color: black;
   text-decoration: underline #f72210;
 }
@@ -218,9 +217,10 @@ h6 a:hover,
   padding-top: 10px;
 }
 
-.travel span a:hover {
-  background-color: #272727;
-  color: #c2d4d7;
+.travel h5 a:hover,
+.travel span a:hover,
+.categ-sec header h6 a:hover {
+  text-decoration: none;
 }
 
 .position-absolute a:hover,
@@ -232,10 +232,14 @@ h6 a:hover,
   text-decoration: none;
 }
 
-.travel h5 a:hover,
-.travel span a:hover,
-.categ-sec header h6 a:hover {
-  text-decoration: none;
+.travel span a:hover {
+  background-color: #272727;
+  color: #c2d4d7;
+}
+
+.mag-img p a:hover {
+  color: black;
+  text-decoration: underline #f72210;
 }
 
 #sept-link a {
