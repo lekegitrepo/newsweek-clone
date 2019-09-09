@@ -217,9 +217,10 @@ h6 a:hover {
   padding-top: 10px;
 }
 
-.mag-img p a:hover {
-  color: black;
-  text-decoration: underline #f72210;
+.travel h5 a:hover,
+.travel span a:hover,
+.categ-sec header h6 a:hover {
+  text-decoration: none;
 }
 
 .position-absolute a:hover,
@@ -231,10 +232,9 @@ h6 a:hover {
   text-decoration: none;
 }
 
-.travel h5 a:hover,
-.travel span a:hover,
-.categ-sec header h6 a:hover {
-  text-decoration: none;
+.mag-img p a:hover {
+  color: black;
+  text-decoration: underline #f72210;
 }
 
 .travel a.culture:hover {
