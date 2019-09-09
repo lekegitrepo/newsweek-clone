@@ -71,6 +71,10 @@ body {
   width: 100%;
 }
 
+ul {
+  padding: 10px;
+}
+
 .bottom-nav ul {
   font-size: 18px;
   font-weight: bold;
@@ -80,8 +84,9 @@ body {
   width: 90%;
 }
 
-.bottom-nav ul li:last-child {
-  border-right: 0;
+.social-icons li {
+  font-size: 25px;
+  line-height: 20px;
 }
 
 .bottom-nav ul li {
@@ -91,18 +96,8 @@ body {
   padding: 0.3rem;
 }
 
-.bottom-nav ul li a {
-  color: #000;
-  text-align: center;
-}
-
-.bottom-nav ul li a:hover,
-.position-absolute a:hover,
-.opinion a:hover,
-.sub-hd-txt a:hover,
-.mag-title a:hover {
-  color: #f72210;
-  text-decoration: none;
+.bottom-nav ul li:last-child {
+  border-right: 0;
 }
 
 .search-bar {
@@ -149,16 +144,6 @@ h6 a {
   font-size: 17px;
   padding: 8px 15px;
   text-transform: uppercase;
-}
-
-#sept-link a {
-  display: block;
-  background-color: #f4f5f6;
-  color: black;
-  text-align: center;
-  margin-bottom: 0;
-  font: bold 18px/18px "Roboto Condensed",sans-serif;
-  padding: 10px 10px 10px 12px;
 }
 
 #sept-link a span {
@@ -220,6 +205,11 @@ h6 a:hover,
   line-height: 18px;
 }
 
+.bottom-nav ul li a {
+  color: #000;
+  text-align: center;
+}
+
 .categ-sec header h6 a,
 .sub-news h6 {
   color: #f72210;
@@ -237,6 +227,25 @@ h6 a:hover,
 .travel span a:hover,
 .categ-sec header h6 a:hover {
   text-decoration: none;
+}
+
+.position-absolute a:hover,
+.opinion a:hover,
+.sub-hd-txt a:hover,
+.mag-title a:hover,
+.bottom-nav ul li a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+#sept-link a {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  padding: 10px 10px 10px 12px;
 }
 
 .sub-hd-pointer {
@@ -386,15 +395,6 @@ h6 a:hover,
   display: flex;
   font-size: 12px;
   margin-bottom: 0.4rem;
-}
-
-ul {
-  padding: 10px;
-}
-
-.social-icons li {
-  font-size: 25px;
-  line-height: 20px;
 }
 
 .fa-facebook-square:hover {
