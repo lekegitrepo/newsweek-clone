@@ -226,8 +226,8 @@ h6 a:hover,
 }
 
 .sub-img-container {
-  display: inline-block;
   position: relative;
+  width: 300px;
 }
 
 .sub-img-container img {
@@ -235,10 +235,14 @@ h6 a:hover,
   width: 170px;
 }
 
-/* #aug {} */
+#aug {
+  left: 20px;
+  position: absolute;
+  top: 13px;
+}
 
 #sept {
-  left: 70px;
+  left: 50px;
   position: absolute;
   top: 13px;
 }
@@ -247,7 +251,6 @@ h6 a:hover,
   font-size: 24px;
   font-weight: bold;
   line-height: 24px;
-  text-align: center;
 }
 
 .arrow {
@@ -326,7 +329,17 @@ footer,
 }
 
 @media (max-width: 768px) {
-  #sept {
-    left: 50%;
+  #aug {
+    left: 30%;
   }
+
+  #sept {
+    left: 35%;
+  }
+
+  .text-content {
+    margin-top: 200px;
+    text-align: center;
+  }
+
 }
