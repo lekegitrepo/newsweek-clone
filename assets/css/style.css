@@ -217,24 +217,31 @@ h6 a:hover {
   padding-top: 10px;
 }
 
-.travel h5 a:hover,
-.travel span a:hover,
-.categ-sec header h6 a:hover {
-  text-decoration: none;
-}
-
 .position-absolute a:hover,
 .opinion a:hover,
 .sub-hd-txt a:hover,
-.mag-title a:hover,
-.bottom-nav ul li a:hover {
+.mag-title a:hover {
   color: #f72210;
+  text-decoration: none;
+}
+
+.travel h5 a:hover,
+.travel span a:hover{
   text-decoration: none;
 }
 
 .mag-img p a:hover {
   color: black;
   text-decoration: underline #f72210;
+}
+
+.categ-sec header h6 a:hover {
+  text-decoration: none;
+}
+
+.bottom-nav ul li a:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 .travel a.culture:hover {
