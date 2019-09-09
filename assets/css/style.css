@@ -232,7 +232,7 @@ h6 a:hover {
   text-decoration: none;
 }
 
-.travel span a:hover {
+.travel a.culture:hover {
   background-color: #272727;
   color: #c2d4d7;
 }
