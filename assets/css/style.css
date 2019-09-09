@@ -80,7 +80,7 @@ body {
   width: 90%;
 }
 
-.bottom-nav ul:last-child {
+.bottom-nav ul li:last-child {
   border-right: 0;
 }
 
@@ -159,11 +159,6 @@ h6 a {
   margin-bottom: 0;
   font: bold 18px/18px "Roboto Condensed",sans-serif;
   padding: 10px 10px 10px 12px;
-}
-
-#sept-link a:hover {
-  background-color: #dbdcdd;
-  text-decoration: none;
 }
 
 #sept-link a span {
@@ -436,6 +431,11 @@ footer,
   padding-right: 10px;
 }
 
+#sept-link a:hover {
+  background-color: #dbdcdd;
+  text-decoration: none;
+}
+
 #langs-link a:hover,
 #footer-links a:hover {
   color: #000;
@@ -459,5 +459,4 @@ footer,
   .nw-letter div figure img {
     height: 120px;
   }
-
 }
