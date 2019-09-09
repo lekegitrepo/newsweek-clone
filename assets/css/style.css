@@ -5,6 +5,93 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar {
+  background-color: #f72210;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-nav {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  height: 95px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 20px 10px 15px;
+  width: 100%;
+}
+
+.date, .sign-in span {
+  color: #fff;
+  font: 16px/34px "Roboto Condensed",sans-serif;
+}
+
+.top-logo {
+  width: 40%;
+}
+
+.top-logo svg {
+  fill: #fff;
+}
+
+.sign-in button {
+  border: 0;
+  background: #fff;
+  color: #f72210;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sign-in i {
+  color: #f72210;
+}
+
+.bottom-nav {
+  align-items: center;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.bottom-nav ul {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Roboto Condensed",sans-serif;
+  line-height: 24px;
+  margin: 0;
+}
+
+.bottom-nav ul:last-child {
+  border-right: 0;
+}
+
+.bottom-nav ul li {
+  border-right: 1px solid #d9d9d9;
+  display: inline-block;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.bottom-nav ul li a {
+  color: #000;
+}
+
+.bottom-nav ul li a:hover,
+.position-absolute a:hover,
+.opinion a:hover,
+.sub-hd-txt a:hover,
+.mag-title a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.top-section {
+  margin-top: 17%;
+}
+
 h1 a,
 h2 a,
 h3 a,
@@ -113,14 +200,6 @@ h6 a:hover,
   padding-top: 25px;
   font-size: 22px;
   line-height: 22px;
-}
-
-.position-absolute a:hover,
-.opinion a:hover,
-.sub-hd-txt a:hover,
-.mag-title a:hover {
-  color: #f72210;
-  text-decoration: none;
 }
 
 .travel span a:hover {
