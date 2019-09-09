@@ -184,6 +184,16 @@ h6 a {
   line-height: 18px;
 }
 
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: black;
+  text-decoration: underline #f72210;
+}
+
 .bottom-nav ul li a {
   color: #000;
   text-align: center;
@@ -197,16 +207,6 @@ h6 a {
   line-height: 22px;
 }
 
-h1 a:hover,
-h2 a:hover,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover {
-  color: black;
-  text-decoration: underline #f72210;
-}
-
 .travel,
 .subcribe {
   background-color: #f4f5f7;
@@ -217,10 +217,9 @@ h6 a:hover {
   padding-top: 10px;
 }
 
-.travel h5 a:hover,
-.travel span a:hover,
-.categ-sec header h6 a:hover {
-  text-decoration: none;
+.mag-img p a:hover {
+  color: black;
+  text-decoration: underline #f72210;
 }
 
 .position-absolute a:hover,
@@ -232,14 +231,15 @@ h6 a:hover {
   text-decoration: none;
 }
 
+.travel h5 a:hover,
+.travel span a:hover,
+.categ-sec header h6 a:hover {
+  text-decoration: none;
+}
+
 .travel a.culture:hover {
   background-color: #272727;
   color: #c2d4d7;
-}
-
-.mag-img p a:hover {
-  color: black;
-  text-decoration: underline #f72210;
 }
 
 #sept-link a {
